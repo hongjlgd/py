@@ -9,7 +9,7 @@ class Spider(Spider):
 		self.base_url='http://api.hclyz.com:81/mf'
 
 	def homeContent(self,filter):
-		classes = [{"type_name": "直播聚合","type_id":"/json.txt"}]
+		classes = [{"type_name": "主播聚合","type_id":"/json.txt"}]
 		result = {"class": classes}
 		return result
 
@@ -54,7 +54,7 @@ class Spider(Spider):
 		return result
 
 	def getName(self):
-		return '直播聚合'
+		return '主播聚合'
 
 	def homeVideoContent(self):
 		pass
