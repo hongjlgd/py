@@ -20,7 +20,7 @@ class Spider(Spider):
 			{
 				"vod_id":"/"+item['address'],
 				"vod_name": item['title'],
-				"vod_pic": item['xinimg'].replace("http://cdn.gcufbd.top/img/", "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/imgs/"),
+				"vod_pic": item['xinimg'].replace("http://cdn.gcufbd.top/img/", "https://down.nigx.cn/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/imgs/"),
 				"vod_remarks": item['Number'],
 				"style": {"type": "rect", "ratio": 1.33}
 			} for item in data]
